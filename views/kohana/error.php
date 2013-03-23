@@ -5,7 +5,7 @@ $error_id = uniqid('error');
 
 ?>
 <style type="text/css">
-#kohana_error { background: #ddd; font-size: 1em; font-family:sans-serif; text-align: left; color: #111; }
+#kohana_error { background: #ddd; font-size: 1em; font-family:'Microsoft Yahei','微软雅黑'; text-align: left; color: #111; }
 #kohana_error h1,
 #kohana_error h2 { margin: 0; padding: 1em; font-size: 1em; font-weight: normal; background: #911; color: #fff; }
 	#kohana_error h1 a,
@@ -25,6 +25,10 @@ $error_id = uniqid('error');
 #kohana_error ol.trace { display: block; margin: 0 0 0 2em; padding: 0; list-style: decimal; }
 	#kohana_error ol.trace li { margin: 0; padding: 0; }
 .js .collapsed { display: none; }
+tt,
+code,
+kbd,
+samp { font-family: 'Courier New'; font-size: 14px; }
 </style>
 <script type="text/javascript">
 document.documentElement.className = document.documentElement.className + ' js';
